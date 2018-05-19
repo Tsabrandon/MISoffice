@@ -8,8 +8,6 @@ body{
   width: 100%;
   overflow-x: hidden;
 } */
-
-
 .home{
   background: url(../img/capitol.png)no-repeat center center fixed;
   display: table;
@@ -33,7 +31,6 @@ body{
   background: #454545;
   color: white;
   margin-top: 20px;
-  width: 100%;
 }
 #about{
   margin-top: 100px;
