@@ -8,10 +8,10 @@ body{
   width: 100%;
   overflow-x: hidden;
 } */
-body{
+/* body{
   margin-left: 0px !important;
    margin-right: 0px !important;
-}
+} */
 .home{
   background: url(../img/capitol.png)no-repeat center center fixed;
   display: table;
