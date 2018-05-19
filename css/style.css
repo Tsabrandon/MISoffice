@@ -8,14 +8,20 @@ body{
   width: 100%;
   overflow-x: hidden;
 } */
+/* body{
+  margin-left: 0px !important;
+   margin-right: 0px !important;
+} */
+.row{
 
-
+}
 .home{
   background: url(../img/capitol.png)no-repeat center center fixed;
   display: table;
   height: 672px;
   width: 100%;
   background-size: cover;
+  overflow-x: hidden;
 }
 .landing-text{
   display: table-cell;
@@ -47,9 +53,8 @@ body{
 }
 .card{
   margin-top: 30px;
-
 }
-.container{
+#container{
   margin-bottom: 30px;
 }
 .card-deck{
