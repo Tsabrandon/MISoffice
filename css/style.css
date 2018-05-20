@@ -1,15 +1,16 @@
 .home{
   background: url(../img/capitol.png)no-repeat center fixed;
-  display: table;
   height: 672px;
   width: 100%;
   background-size: cover;
+  margin: auto;
+  overflow: hidden;
 }
 .landing-text{
-  display: table-cell;
+  margin-top: 15%;
   text-align: center;
-  vertical-align: middle;
   color: white;
+
 }
 .nav-item{
   padding-right: 30px;
@@ -17,10 +18,14 @@
 .card i{
   font-size: 100px;
 }
+.col-lg-4, sm-12{
+  margin-top: 20px;
+}
 .footer{
   background: #454545;
   color: white;
   margin-top: 20px;
+  width: 100%;
 }
 #container{
   margin-top: 30px;
@@ -39,4 +44,31 @@
 .card-deck{
   margin-top: 100px;
   margin-bottom: 142px;
+}
+#navbar li, a{
+  font-size: 20px;
+}
+#contact{
+  margin-top: 120px;
+}
+#address{
+  margin-top: 30px;
+  text-align: center;
+}
+.bttn{
+  text-align: center;
+  margin-bottom: 20px;
+}
+/* media screens movile phone screens*/
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px){
+.home h1{
+  font-size: 50px;
+}
+.home{
+  height: 560px;
+}
+.landing-text{
+  margin-top: 30%;
+}
 }
